@@ -23,7 +23,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    # So GoReleaser can generate the changelog properly
+    # So GoReleaser can generate the changelog properly My releases
     - name: Unshallowify the repo clone
       run: git fetch --prune --unshallow
 
