@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  job_id:
+   
     armv7_job:
     runs-on: ubuntu-18.04
     name: Build on ARMv7 
